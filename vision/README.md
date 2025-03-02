@@ -1,3 +1,4 @@
+*To be updated*
 # Poker Vision Tracking System
 
 ## Overview
@@ -14,7 +15,7 @@ This project is designed to track poker chips, detect folds, and monitor hand mo
 6. **Interactive Region Setup**: Allows user to reconfigure player, pot and card areas of the video feed to calibrate for different setups.
 
 ## Unique Approaches
-fff
+
 - **Concurrent Camera Access**: The system uses a virtual camera to mirror the physical camera feed, as well as a producer-consumer thread for the shared frames, allowing multiple threads to access the same video stream without conflicts.
 - **Thread-Safe Shared Data**: Utilizes locks and events to ensure safe and synchronized access to shared data across threads.
 - **On-Demand Chip Detection**: Chip detection is triggered by user input, "C" or 'c" in this case, optimizing resource usage and processing time.
